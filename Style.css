@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@300&display=swap');
+#logo{
+height: 33px;
+width: 268px;
+margin-right: 200px;
+margin-top: 18px;
+}
+#logo:hover{
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 1365px;
+    height: 70px;
+    margin-top: -100px;
+    margin-left: -10px;
+    position: relative;
+    background-color: #FFFFFF;
+    position: fixed;
+}
+.mainMenu{
+    display: flex;
+    justify-content: space-around;
+    line-height: 2em;
+    width: 250px;
+    height: 70px;
+    list-style: none;
+    margin-top: 10px;
+}
+.mainMenu #iscurrent{
+    color: #00B39B;
+}
+.subMenu{
+    display: none;
+    list-style: none;
+    position: absolute;
+    width: 208px;
+    height: 220px;
+    margin-left: -100px;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    background-color: white;
+}
+.mainMenuitem{
+ font-family: Roboto, Arial, sans-serif;
+ font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+color: #ABABAB;
+margin-top: 12px;
+}
+.mainMenuitem:hover{
+color: #00B39B;
+cursor: pointer;
+}
+.mainMenuitem:hover .subMenu{
+    display: block;
+}
+.subMenuItem{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    height: 9px;
+    width: 210px;
+    color: #ABABAB;
+    margin-left: -35px;
+    padding: 12px 16px 12px 16px;
+    align-items: center;
+    text-align: left;
+    margin-top: 10px;
+}
+.subMenuItem:hover{
+    color: #00B39B;
+    background-color: #F6F8F8;
+}
+.title{
+    text-align: center;
+    margin-top: 100px;
+}
+.intro h1{
+    font-family: Work Sans, Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 44.2px;
+    color: #00B39B;
+}
+.para{
+    display: flex;
+    width: 1015px;
+    margin-left: 20% ;
+}
+p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #747474;
+    height: 112px;
+    width: 477.5px;
+    margin: 13px 0 13px 0;
+}
+.gridFE{
+background-color: #FFFFFF;
+display: inline-flex;
+position: relative;
+max-width: 1015px;
+margin-top: 5%;
+margin-left: 17%;
+}
+.Grid{
+    background-color: #FFFFFF;
+    height: 365px;
+    width: 350px;
+    padding: 10px 10px 10px 10px;
+}
+.Card-patients{
+    background-color: #1AD1B9;
+    text-align: left;
+    height: 345px;
+    width: 250px;
+    padding: 32px 32px 0 32px;
+    flex-direction: column;
+    border-radius: 1%;
+}
+.Card-doctors{
+    background-color: #5190E2;
+    text-align: left;
+    height: 345px;
+    width: 250px;
+    padding: 32px 32px 0 32px;
+    flex-direction: column;
+    border-radius: 1%;
+}
+.Card-clinics{
+    background-color: #323D49;
+    text-align: left;
+    height: 345px;
+    width: 250px;
+    padding: 32px 32px 0 32px;
+    flex-direction: column;
+    border-radius: 1%;
+}
+h1{
+    font-family: Work Sans, Arial, sans-serif;
+    font-size: 26px;
+    line-height: 33.8px;
+    color: #FFFFFF;
+}
+h2{
+    font-family: Work Sans, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #FFFFFF;
+}    
+    .Card_select{ 
+    margin-top: 50px;
+}
+#domain{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    line-height: 24.96px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+    background: transparent;
+    display: inline-block;
+    border: 0;
+    border-radius: 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#domain:hover{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    line-height: 24.96px;
+    color: #333;
+}
+#more{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    line-height: 24.96px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    text-decoration: underline;
+    cursor: pointer;
+    display:table;
+    tab-size: 0;
+}
+#more:hover{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    line-height: 24.96px;
+    color: #333;
+}
+.Brands-section{
+    background-color: #FFFFFF;
+    height: 117px;
+    width: 1015px;
+}
+.Brands-section h1{
+    height: 50px;
+    width: 250px;
+    font-family:  Work Sans,Arial,sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    color: #00B39B;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.Brands-logos{
+    height: 109px;
+    width: 635.25px;
+    background-color: #FFFFFF;
+    list-style: none;
+    display: flex;  
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 550px;
+    margin-top: -60px;
+    opacity: 18%;
+}
+.Brands-logos :hover{
+    color: #3D83DF;
+    cursor: pointer;
+}
+.tuotempo :hover{
+    opacity: none;
+}
+.stats{
+    background-color: #D8F6F6;
+    height: 600px;
+    width: 1349px;
+}
+.stats h1{
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 34px;
+    margin-left: 100px;
+    color: #00B39B;
+}
+.TP p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: #747474;
+}
+.tab h3{
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #00B39B;
+}
+.tab p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    color: #747474;
+    height: 76px;
+    width: 198px;
+}
+.tab{
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    height: 560px;
+    width: 497px;
+    margin-left: 600px;
+    margin-top: -500px;
+}
+#psts{
+height: 400px;
+width: 700px;
+margin-top: -50px;
+}
+.un{
+    background-color: transparent;
+    height: 275px;
+    width: 248px;
+    text-align: center;
+    margin-top: -30px;
+}
+.deux{
+    background-color: transparent;
+    height: 275px;
+    width: 248px;
+    text-align: center;
+    margin-top: -80px;
+}
+.trois{
+    background-color: transparent;
+    height: 275px;
+    width: 248px;
+    text-align: center;
+    margin-top: -50px;
+}
+.quatre{
+    background-color: transparent;
+    height: 275px;
+    width: 248px;
+    text-align: center;
+    margin-top: -85px;
+}
+.case1{
+    height: 250px;
+    width: 228px;
+    background-color: #FFFFFF;
+}
+.case2{
+    height: 250px;
+    width: 228px;
+    background-color: #FFFFFF;
+}
+.case3{
+    height: 250px;
+    width: 228px;
+    background-color: #FFFFFF;
+}
+.case4{
+    height: 250px;
+    width: 228px;
+    background-color: #FFFFFF;
+}
+.offices{
+    background-color: #FFFFFF;
+    height: 1350px;
+    width: 1015px;
+}
+.team h1{
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #00B39B; 
+    height: 78px;
+    width: 460;
+    margin-left: 200px;
+}
+.team p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #747474;
+    text-align: center;
+    margin-left: 400px;
+    height: 72px;
+    width: 460;
+}
+.office table{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.office button{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF; 
+    background-color: #3D83DF;
+    border: none;
+    border-radius: 5%;
+    height: 30px;
+    width: 103px;
+    cursor: pointer;
+    margin-left: 250px;
+    margin-top: -20px;
+}
+.office img{
+    height: 280px;
+    width: 350px;
+    border-radius: 1%;
+    cursor: pointer;
+}
+.office h5{
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 18px;
+    color: #747474;
+}
+.Join h1{
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 30px;
+    color: #333; 
+    height: 39px;
+    width: 520px;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+.Join button{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF; 
+    height: 40px;
+    width: 210px;
+    background-color: #3D83DF;
+    border: none;
+    border-radius: 1%;
+    margin-left: 550px;
+    cursor: pointer;
+}
+footer p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    color: #ABABAB;
+    text-align: center;
+    height: 89px;
+    width: 1015px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
